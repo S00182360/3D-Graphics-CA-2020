@@ -41,7 +41,18 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="CustomEffectModel.cs" />
+    <Compile Include="Engine\Camera.cs" />
+    <Compile Include="Engine\DebugEngine.cs" />
+    <Compile Include="Engine\GameObject3D.cs" />
+    <Compile Include="Engine\GameUtilities.cs" />
+    <Compile Include="Engine\ImmediateShapeDrawer.cs" />
+    <Compile Include="Engine\InputEngine.cs" />
+    <Compile Include="Engine\ModelDataExtractor.cs" />
+    <Compile Include="Engine\SimpleModel.cs" />
     <Compile Include="Game1.cs" />
+    <Compile Include="Material.cs" />
+    <Compile Include="MeshTag.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
