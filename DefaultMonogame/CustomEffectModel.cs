@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace DefaultMonogame
 {
-    class CustomEffectModel : SimpleModel
+    public class CustomEffectModel : SimpleModel
     {
         public Effect CustomEffect;
         public Material Material;
