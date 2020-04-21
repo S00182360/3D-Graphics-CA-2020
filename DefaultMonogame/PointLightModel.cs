@@ -20,7 +20,7 @@ namespace DefaultMonogame
         {
             CustomEffect = GameUtilities.Content.Load<Effect>("");
 
-            CustomEffect.Parameters["Texture"].SetValue(GameUtilities.Content.Load<Texture2D>(""));
+            CustomEffect.Parameters["Texture"].SetValue(GameUtilities.Content.Load<Texture2D>("Textures/white"));
             CustomEffect.Parameters["TextureEnabled"].SetValue(true);
 
             base.LoadContent();

@@ -1,6 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using Sample;
 
 namespace DefaultMonogame
 {
@@ -9,6 +10,8 @@ namespace DefaultMonogame
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
+        InputEngine input;
+
 
         public Game1()
         {
