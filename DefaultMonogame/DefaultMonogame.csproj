@@ -65,6 +65,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Effects\DirectionalLight.fx" />
+    <Content Include="Content\Effects\FinalLighting.fx" />
     <Content Include="Content\Effects\PointLight.fx" />
     <Content Include="Content\Textures\blue.png" />
     <Content Include="Content\Textures\cubecover.png" />
@@ -86,6 +88,7 @@
     <None Include="Content\Models\LightMesh.fbx" />
     <None Include="Content\Models\trex.fbx" />
     <None Include="Content\Models\wall.fbx" />
+    <None Include="Documentation for 3D graphics.docx" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

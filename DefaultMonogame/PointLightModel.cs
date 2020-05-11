@@ -18,7 +18,7 @@ namespace DefaultMonogame
 
         public override void LoadContent()
         {
-            CustomEffect = GameUtilities.Content.Load<Effect>("");
+            CustomEffect = GameUtilities.Content.Load<Effect>("Effects\\PointLight");
 
             CustomEffect.Parameters["Texture"].SetValue(GameUtilities.Content.Load<Texture2D>("Textures/white"));
             CustomEffect.Parameters["TextureEnabled"].SetValue(true);

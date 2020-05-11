@@ -13,6 +13,18 @@
 
 #---------------------------------- Content ---------------------------------#
 
+#begin Effects/DirectionalLight.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Effects/DirectionalLight.fx
+
+#begin Effects/FinalLighting.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Effects/FinalLighting.fx
+
 #begin Effects/PointLight.fx
 /importer:EffectImporter
 /processor:EffectProcessor
